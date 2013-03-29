@@ -13,7 +13,7 @@
     <ignored path="Drawer.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="26aca2be-5461-44db-a2f8-b73c485972d1" time="1364561229904" ignored="false" />
-    <file path="/README.md" changelist="26aca2be-5461-44db-a2f8-b73c485972d1" time="1364564024723" ignored="false" />
+    <file path="/README.md" changelist="26aca2be-5461-44db-a2f8-b73c485972d1" time="1364564238150" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="21" selection-start="361" selection-end="361" vertical-scroll-proportion="0.65510595">
+            <state line="6" column="62" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19653179">
               <folding />
             </state>
           </provider>
@@ -270,7 +270,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="21" selection-start="361" selection-end="361" vertical-scroll-proportion="0.65510595">
+        <state line="6" column="62" selection-start="145" selection-end="145" vertical-scroll-proportion="0.19653179">
           <folding />
         </state>
       </provider>

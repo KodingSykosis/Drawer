@@ -2,8 +2,8 @@ jQuery Drawer Widget
 --
 
 Dependancies:
-- jQuery.jTransitions
-- jQuery.ui.ViewStack
+- jQuery.jTransitions   godwhj/jTransistions
+- jQuery.ui.ViewStack   godwhj/ViewStack
 - jQuery.tinyscrollbar \(My fork of <http://baijs.nl/tinyscrollbar/>\)
 
 

@@ -4,15 +4,15 @@ jQuery Drawer Widget
 Dependancies:
 - jQuery.jTransitions
 - jQuery.ui.ViewStack
-- tinyscrollbar \(My fork of <http://baijs.nl/tinyscrollbar/>\)
+- jQuery.tinyscrollbar \(My fork of <http://baijs.nl/tinyscrollbar/>\)
 
 
 Example:
-    <body>
+    '<body>
         <div id="drawer"></div>
         <div id="workspace"></div>
         <ul id="menu"></ul>
-    </body>
+    </body>'
 
     $('#drawer').Drawer({
         dock: 'top',

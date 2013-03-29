@@ -9,11 +9,11 @@ Dependancies:
 
 
 Example:
-    '''<body>
-        <div id="drawer"></div>
-        <div id="workspace"></div>
-        <ul id="menu"></ul>
-    </body>'''
+    &lt;body&gt;
+        &lt;div id=&quot;drawer&quot;&gt;&lt;/div&gt;
+        &lt;div id=&quot;workspace&quot;&gt;&lt;/div&gt;
+        &lt;ul id=&quot;menu&quot;&gt;&lt;/ul&gt;
+    &lt;/body&gt;
 
     $('#drawer').Drawer({
         dock: 'top',

@@ -1,5 +1,5 @@
 (function ($) {
-    $.widget("NerdyDudeDesigns.Drawer", {
+    $.widget("KodingSykosis.Drawer", {
         options: {
 			dock: 'top',
 			workspace: undefined,
@@ -60,34 +60,10 @@
 			}
 		
 			this.element
-				.addClass('ui-drawer')
+				.addClass('ui-drawer ui-widget-content')
 				.css(css);
 		
 			$.fork(function() {self[state](false)});
-        },
-        
-		_init: function() {
-		},
-
-        _destroy: function() {
-
-        },
-
-        // Use the _setOption method to respond to changes to options
-        _setOption: function (key, value) {
-            this.options[key] = value;
-
-            // In jQuery UI 1.8, you have to manually invoke the _setOption method from the base widget
-            // In jQuery UI 1.9 and above, you use the _super method instead
-
-            if (this._super)
-                this._super("_setOption", key, value);
-        },
-
-        // Use the destroy method to clean up any modifications your widget has made to the DOM
-        destroy: function () {
-            $.Widget.prototype.destroy.call(this);
-            this._destroy();
         },
         
         open: function(animate) {
@@ -129,7 +105,7 @@
 		},
 	
 		_animate: function(css, state) {
-			var workspace = this.options['workspace'],
+			var workspace = $(this.options['workspace']),
 				size = this._size(),
 				dock = this.options['dock'],
 				self = this;
